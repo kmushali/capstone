@@ -1,0 +1,491 @@
+h1, h2, h3, h4, h5, h6{
+    padding: 0px; margin: 0px;}
+/*div {border: 1px solid blue;}**/
+html{
+font-family: Helvetica;
+font-size: 16px;
+width: 100%;}
+
+header{
+  display: flex;}
+
+.logo {
+  display: flex;
+  position: relative;
+  width: 70%;
+}
+nav ul{
+    position: absolute;
+    display: flex;
+    width: 25rem;
+    justify-content: space-around;
+      line-height: 2rem;
+      list-style: none;
+}
+
+li a:hover {
+     color: green; }
+
+li a{
+  text-decoration:none;
+  list-style: none;
+    color:#362937;
+
+}
+
+.namelogo{
+  line-height: 4rem;
+    padding-left: .1rem;}
+
+.logo img{
+  padding-left: 1rem;
+padding-top: 1rem;
+padding-bottom: 1rem;}
+
+.namelogo span{
+  color:#362937;
+font-weight: normal;
+font-family: helvetica;}
+
+ .banner{
+  background-color: #e2e2e2;
+    width: 100%;
+    display: flex;
+}
+
+.banner img {
+    width: 59%;
+    padding: 2rem 1.5rem;
+}
+
+.banner .words {
+    padding-top: 11rem;
+    padding-left: 1.5rem;
+    width: 32%;
+     color: #362937;}
+
+     .words h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.words p {
+    font-size: 1.5rem;
+    font-weight: 560;
+}
+
+.words .link {
+    width: 20em;
+    height: 2em;
+    text-align: center;
+    padding-top: 1rem;
+    background-color: #362937;}
+
+a.starthere {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.mainnews img {
+    width: 59%;
+    padding: 2rem 1.5rem;
+}
+}
+.container2{
+  width: 100%;
+display:flex;
+}
+
+.words2{
+  width: 94%;
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.words2 h1{
+    color: #362937;
+    font-weight: 700;
+  font-size: 2.5rem;
+  padding-bottom: 1.5rem;
+
+}
+
+.h1, .newlanguage{
+  color: #362937;
+}
+.h1{
+    font-weight: 700;
+}
+ .main{
+     display: flex;
+ }
+
+.mainnews {
+  width: 60%;
+  float: left;
+  border-right: 1px solid gray;
+}
+.mainnews img {
+    width: 94%;
+    margin: 32px 24px;
+}
+.submain{
+    width: 39.9%;
+    float: left;
+    margin-left: 1.5rem;
+}
+
+h2.start {
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 750;
+}
+.readmore a{
+  list-style: none;
+text-decoration: none;}
+
+.subnews{
+position: relative;
+border-bottom: 3px solid gray;
+margin-top: 3rem;
+}
+
+.subnews:last-child{
+    border-bottom: 0;
+    background-color: gray;
+}
+
+.image1 {
+    width: 36%;
+    margin: 1rem;
+    height: 11rem;
+}
+
+ .yafoni {
+    display: none;
+}
+
+.zolemba {
+    width: 50%;
+    color: #362937;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+
+.zolemba h1{
+font-size: 1.5rem;
+}
+
+.sub2{
+    margin-bottom: 32px;
+    width: 100%;
+}
+}
+
+.zonse1{
+background-color: #e2e2e2;
+
+}
+
+.zonse{
+    background-color: white;
+    display: inline-flex;
+    width: 100%;
+}
+
+.zonse h5 {
+   padding-left: 1rem;
+   padding-bottom: 1rem;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+.zonse img {
+   width: 100%;
+
+}
+
+.zonse h3 {
+   margin: 16px 16px 8px;
+}
+
+.zonse p {
+   margin: 0 16px;
+   color: gray;
+}
+
+.zolemba a{
+  text-decoration: none;
+
+}
+
+.readmore{
+  width: 90%;
+}
+.submain2 h2{
+      text-align: center;
+      color:#362937;
+      font-size: 3rem;
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+}
+
+.zankati {
+    padding-right: 2rem;
+    width: 70%;
+
+}
+
+.zonse2 {
+    width: 100%;
+    background-color: white;
+    display: inline-flex;
+}
+
+.zonse2 h5 {
+   padding-left: 1rem;
+   padding-bottom: 1rem;
+   text-transform: uppercase;
+   font-weight: bold;
+}
+
+.zonse2 img {
+   width: 100%;
+
+}
+
+.zonse2 h3 {
+   margin: 16px 16px 8px;
+}
+
+.zonse2 p {
+   margin: 0 16px;
+   color: gray;
+}
+
+
+.zankati2 {
+    padding-right: 2rem;
+    width: 70%;
+}
+
+.submain3 h4 {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
+    color: #362937;
+}
+
+.submain3{
+width: 100%;
+display: flex;
+}
+
+h4.name {
+    font-size: 2rem;
+    font-weight: 750;
+    text-align: center;
+    margin: 2rem;
+    color: #362937;
+}
+.vclassmain {
+    width: 40%;
+}
+
+.vclass2 img {
+    width: 39%;
+    padding: 1rem;
+    height: 13rem;
+    margin-top: .4rem
+}
+
+.words3 {
+    padding-top: 4rem;
+}
+
+.videofile{
+    width: 60%;
+}
+.vclass p {
+    line-height: 1.5rem;
+    width: 50rem;
+}
+
+.vclass2{
+display: flex;
+}
+.vclass video {
+    height: 500px;
+}
+
+.vclass .words3 {
+    width: 56%;
+    float: right;
+    padding-top: 5rem;
+}
+
+footer{
+    border-top:3px solid gray;
+width: 100%;
+display: flex;
+justify-content: space-between;}
+
+footer nav a{
+    line-height: 2.7rem;
+text-decoration:none;}
+
+.footer{
+    display: none;
+}
+.navphone{
+    display: block;
+}
+
+
+@media only screen and (max-width: 667px) {
+    body {
+         font-size: 12px; }
+    .logo .namelogo{
+        display: none;}
+
+    header nav ul{
+        display: none;
+    }
+    .navphone nav{
+        display: block;
+    }
+
+    .banner{
+        display: block;}
+
+    .banner img{
+        width: 100%;
+    padding: 0rem;}
+
+    .banner .words {
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-bottom: 1.5rem;
+        width: 100%;
+         color: #362937;}
+.mainnews{
+    display: none;
+}
+
+.submain{
+    width: 100%;
+}
+
+.subnews .zolemba{
+    display: none;
+}
+
+.subnews{
+position:inherit;
+border:none;
+margin-top: 1rem;
+display: block;}
+
+.yafoni{
+    display: block;
+    width: 100%;
+    position: relative;
+
+}
+
+.yafoni img{
+    height: 10rem;
+    width: 95%;
+}
+
+.yafoni .zolembafoni, .zolembafoni1{
+    width: 95%;
+    padding-left: 1rem;
+}
+
+.yafoni p{
+    display: block;
+}
+
+.yafoni a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 200;
+}
+
+
+.image1{
+    display: none;
+}
+
+.submain2, .sub2{
+    width: 100%;
+}
+
+.zonse{
+    display: block;
+    width: 100%;
+    background-color: white;
+    line-height: 2.5rem;
+    margin-left: 3.3rem;
+}
+
+.zonse2 {
+    width: 100%;
+    background-color: white;
+    display: block;
+    line-height: 2.5rem;
+    margin-left: 3.3rem;
+
+
+}
+
+.zonse h3{
+    background-color: #e2e2e2;
+    width: 100%;
+    font-size: 1.3rem;
+    padding-left: 1rem;
+}
+
+.zonse2 h3{
+    background-color: #e2e2e2;
+    width: 100%;
+    font-size: 1.3rem;
+    padding-left: 1rem;
+}
+
+.zankati img, h5{
+    display: none;
+}
+
+.zankati2 img{
+    display: none;
+}
+
+.vclass h3, p{
+    display: none;
+}
+.videofile{
+    width: 100%;
+}
+.vclass video{
+    width: 500px;
+    height: 300px;
+}
+.vclass2{
+    display: none;
+}
+
+footer nav a{
+    display: none;
+}
+
+footer .pp{
+    display: block;
+
+}
+
+
+ }
