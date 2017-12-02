@@ -32,6 +32,7 @@ li a{
     color:#362937;
 
 }
+/*div {border: 2px solid black;}*/
 
 .namelogo{
   line-height: 4rem;
@@ -340,7 +341,7 @@ text-decoration:none;}
     display: none;
 }
 .navphone{
-    display: block;
+    display: none;
 }
 
 
@@ -353,8 +354,10 @@ text-decoration:none;}
     header nav ul{
         display: none;
     }
-    .navphone nav{
+
+    .navphone {
         display: block;
+        padding-top: 1rem;
     }
 
     .banner{
